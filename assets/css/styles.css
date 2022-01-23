@@ -1972,24 +1972,6 @@ option:first {
 
 }
 
-/* Height Related Media Query */
-/* @media screen and (max-height: 600px) {
-    .home__container {
-        margin-top: -3rem;
-    }
-}
-
-@media screen and (max-height: 550px) {
-    .home__container {
-        margin-top: -4rem;
-    }
-}
-
-@media screen and (max-height: 550px) {
-    .home__container {
-        margin-top: -4rem;
-    }
-} */
 
 /* Animated Dark/Light Mode Toggle */
 html.transition,
