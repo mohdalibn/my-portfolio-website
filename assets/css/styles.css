@@ -522,7 +522,54 @@ img {
 
 .home__scroll-arrow {
     font-size: 1.25rem;
+    animation: bounce 2s infinite;
+    animation-delay: 2s;
+    -webkit-animation: bounce 2s infinite;
+    -webkit-animation-delay: 2s;
+
+
 }
+
+/* Animation for the down arrow at the bottom of the home page */
+@keyframes bounce {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(10px);
+    }
+
+    60% {
+        transform: translateY(10px);
+    }
+}
+
+@-webkit-keyframes bounce {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(10px);
+    }
+
+    60% {
+        transform: translateY(10px);
+    }
+
+}
+
 
 .home__contact__button {
     background: none;
