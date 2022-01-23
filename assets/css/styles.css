@@ -1671,51 +1671,6 @@ option:first {
         margin-left: 3rem;
     }
 
-    /* .new_scroll_down{
-        height: 30px;
-        width: 20px;
-        border: 2px solid white;
-        position: absolute;
-        border-radius: 50px;
-        cursor: pointer;
-    }
-
-    .new_scroll_down::before,
-    .new_scroll_down::after{
-        content: '';
-        position: absolute;
-        top: 20%;
-        left: 50%;
-        border: 2px solid white;
-        height: 5px;
-        width: 5px;
-        transform: translateX(4.5px) rotate(45deg);
-        border-top: transparent;
-        border-left: transparent;
-        animation: scroll-down 1.5s ease-in-out infinite;
-    }
- 
-    .new_scroll_down::after{
-        top: 35%;
-        animation-delay: 0.3s;
-    }
-
-    @keyframes scroll-down {
-        0%{
-            opacity: 0;
-        }
-        30%{
-            opacity: 1;
-        }
-        60%{
-            opacity: 1;
-            
-        }
-        100%{
-            opacity: 0;
-            top: 90%;
-        }
-    } */
 
     .about__container {
         column-gap: 5rem;
