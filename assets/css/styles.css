@@ -338,6 +338,7 @@ img {
     color: #3885c3;
     font-size: 1rem;
     transform: translateY(1px);
+
 }
 
 .nav__logo span:hover {
@@ -685,6 +686,7 @@ img {
     display: flex;
     align-items: center;
     margin-bottom: var(--mb-2-5);
+    /* margin-bottom: 15px; */
     cursor: pointer;
 }
 
@@ -713,9 +715,29 @@ img {
 }
 
 .skills__list {
-    row-gap: 1.5rem;
-    padding-left: 2.7rem;
+    row-gap: 1px;
+    padding-left: 2rem;
+    padding-right: 1rem;
+    /* padding: 1rem 1rem; */
+    border-radius: 1rem;
+    /* background-color: hsl(219, 32%, 12%); */
+    /* background-color: var(--first-color-alt); */
+    background-color: var(--container-color);
+    box-shadow: var(--service-shadow);
 }
+
+.skills__list .bxs-badge-check {
+    color: var(--first-color);
+}
+
+.skills__data {
+    padding-top: 10px;
+    /* border-bottom: 1px solid white; */
+}
+
+/* .skills__data:nth-child(4) {
+    border-bottom: none;
+} */
 
 .skills__titles {
     display: flex;
