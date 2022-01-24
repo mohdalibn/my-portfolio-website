@@ -1894,7 +1894,7 @@ option:first {
     .footer__copy {
         /* margin-top: 5.5rem; */
         margin-bottom: -2.5rem;
-        padding-left: 3rem;
+        padding-left: 0.5rem;
     }
 
 }
