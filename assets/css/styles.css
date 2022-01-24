@@ -337,9 +337,10 @@ img {
 .nav__logo .bxs-badge-check {
     color: #3885c3;
     font-size: 1rem;
+    transform: translateY(1px);
 }
 
-.nav__logo:hover {
+.nav__logo span:hover {
     color: var(--first-color);
 }
 
@@ -370,6 +371,11 @@ img {
         border-radius: 0 0 1.5rem 1.5rem;
         transition: 0.3s
     }
+
+    .nav__logo .bxs-badge-check {
+        transform: translateY(0px);
+    }
+
 }
 
 .nav__list {
@@ -981,9 +987,9 @@ img {
     z-index: var(--z-modal);
     opacity: 0;
     visibility: hidden;
-    transform: translateY(-3rem);
+    transform: scale(1.1);
     /* transition: .3s; */
-    transition: all 0.5s;
+    transition: all 0.3s;
 }
 
 .services__model-content {
@@ -991,7 +997,7 @@ img {
     overflow-x: hidden;
     background-color: var(--container-color);
     padding: 1.5rem;
-    border-radius: .5rem;
+    border-radius: 1.5rem;
 }
 
 .services__model-services {
@@ -1355,6 +1361,11 @@ option:first {
 
 }
 
+.codepen__footer {
+    font-size: 1.3rem;
+    transform: translateY(1px);
+}
+
 /* Margin Only for the first 3 icons to avoid extra gap after the last icon */
 .footer__social:nth-child(1) {
     margin-right: var(--mb-1-5);
@@ -1365,6 +1376,10 @@ option:first {
 }
 
 .footer__social:nth-child(3) {
+    margin-right: var(--mb-1-5);
+}
+
+.footer__social:nth-child(4) {
     margin-right: var(--mb-1-5);
 }
 
@@ -1835,6 +1850,10 @@ option:first {
     .footer__social {
         font-size: 1.5rem;
         /* border: 1px solid red; */
+    }
+
+    .codepen__footer {
+        font-size: 1.55rem;
     }
 
     .footer__bg {
