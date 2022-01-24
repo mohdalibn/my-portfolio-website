@@ -623,6 +623,8 @@ img {
     transform: translateX(.25rem);
 }
 
+
+
 /*==================== ABOUT ====================*/
 .about__img {
     width: 200px;
@@ -1009,6 +1011,7 @@ img {
 }
 
 .services__model-title {
+    text-align: center;
     font-size: var(--h3-font-size);
     font-weight: var(--font-medium);
     margin-bottom: var(--mb-1-5);
