@@ -328,9 +328,22 @@ img {
     font-weight: var(--font-medium);
 }
 
+.nav__logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.nav__logo .bxs-badge-check {
+    color: #3885c3;
+    font-size: 1rem;
+}
+
 .nav__logo:hover {
     color: var(--first-color);
 }
+
+
 
 .nav__toggle {
     font-size: 1.1rem;
@@ -369,6 +382,7 @@ img {
     flex-direction: column;
     align-items: center;
     color: #551A8B;
+    /* color: var(--basic-change); */
     font-size: var(--small-font-size);
     font-weight: var(--font-medium);
 }
@@ -426,22 +440,42 @@ img {
     align-items: center;
 }
 
-.home__social {
+/* .home__social {
     display: grid;
     grid-template-columns: max-content;
     row-gap: 1rem;
+    border: 1px solid red;
+} */
+
+.home__social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.home__social-icon {
+    font-size: 1.25rem;
+    color: var(--first-color-alt);
+    /* color: var(--basic-change); */
+    /* border: 1px solid red; */
+}
+
+.codepen__icon {
+    font-size: 1.3rem;
 }
 
 .linkedin__icon:hover {
     color: #0077B5;
 }
 
-.linkedin__home:hover {
-    transform: translateX(0.5rem);
-}
-
 .github__icon:hover {
     color: #333;
+}
+
+.codepen__icon:hover {
+    color: #ffff;
 }
 
 .instagram__icon:hover {
@@ -452,13 +486,6 @@ img {
     color: #4267B2;
 }
 
-
-
-.home__social-icon {
-    font-size: 1.25rem;
-    color: var(--first-color-alt);
-    /* color: var(--basic-change); */
-}
 
 .home__blob {
     width: 200px;
