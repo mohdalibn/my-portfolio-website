@@ -356,28 +356,6 @@ img {
     color: var(--first-color);
 }
 
-@media screen and (max-width: 778px) {
-    .nav__menu {
-        position: fixed;
-        /* bottom: -100%; */
-        top: -100%;
-        left: 0;
-        width: 100%;
-        /* background-color: var(--body-color); */
-        background-color: var(--nav-mobile-background);
-        padding: 2rem 1.5rem 4rem;
-        /* box-shadow: 0 -3px 4px rgba(0, 0 , 0, 0.15); */
-        box-shadow: var(--nav-menu-shadow);
-        /* border-radius: 1.5rem 1.5rem 0 0; */
-        border-radius: 0 0 1.5rem 1.5rem;
-        transition: 0.3s
-    }
-
-    .nav__logo .bxs-badge-check {
-        transform: translateY(0px);
-    }
-
-}
 
 .nav__list {
     grid-template-columns: repeat(3, 1fr);
@@ -458,7 +436,7 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     gap: 1rem;
 }
 
@@ -717,7 +695,7 @@ img {
 
 .skills__content {
     background-color: var(--container-color);
-    border-radius: 1rem;
+    border-radius: 1.2rem;
     margin-bottom: 1.5rem;
     box-shadow: var(--service-shadow);
 }
@@ -730,13 +708,7 @@ img {
     row-gap: 1px;
     padding-left: 2rem;
     padding-right: 1rem;
-    /* padding-bottom: 1rem; */
-    /* padding: 1rem 1rem; */
     border-radius: 1rem;
-    /* background-color: hsl(219, 32%, 12%); */
-    /* background-color: var(--first-color-alt); */
-    /* background-color: var(--container-color); */
-    /* box-shadow: var(--service-shadow); */
 }
 
 .skills__list .bxs-badge-check {
@@ -1487,6 +1459,30 @@ option:first {
 }
 
 /*==================== MEDIA QUERIES ====================*/
+
+@media screen and (max-width: 778px) {
+    .nav__menu {
+        position: fixed;
+        /* bottom: -100%; */
+        top: -100%;
+        left: 0;
+        width: 100%;
+        /* background-color: var(--body-color); */
+        background-color: var(--nav-mobile-background);
+        padding: 2rem 1.5rem 4rem;
+        /* box-shadow: 0 -3px 4px rgba(0, 0 , 0, 0.15); */
+        box-shadow: var(--nav-menu-shadow);
+        /* border-radius: 1.5rem 1.5rem 0 0; */
+        border-radius: 0 0 1.5rem 1.5rem;
+        transition: 0.3s
+    }
+
+    .nav__logo .bxs-badge-check {
+        transform: translateY(0px);
+    }
+
+}
+
 /* For small devices */
 
 @media screen and (max-width: 258px) {
@@ -1621,6 +1617,7 @@ option:first {
     }
 
 }
+
 
 /*  This media query is specifically for the text sizes on the home page between 568px and 720px. This returns the sizes to the original variables assigned  */
 @media screen and (min-width: 729px) {
