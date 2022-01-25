@@ -680,13 +680,14 @@ img {
 /*==================== SKILLS ====================*/
 .skills__container {
     row-gap: 0;
+    /* border: 1px solid red; */
 }
 
 .skills__header {
     display: flex;
+    justify-content: center;
     align-items: center;
-    margin-bottom: var(--mb-2-5);
-    /* margin-bottom: 15px; */
+    padding: 1rem 0.5rem;
     cursor: pointer;
 }
 
@@ -714,16 +715,28 @@ img {
     transition: .4s;
 }
 
+.skills__content {
+    background-color: var(--container-color);
+    border-radius: 1rem;
+    margin-bottom: 1.5rem;
+    box-shadow: var(--service-shadow);
+}
+
+.skills__content:nth-child(4) {
+    margin-bottom: 0rem;
+}
+
 .skills__list {
     row-gap: 1px;
     padding-left: 2rem;
     padding-right: 1rem;
+    /* padding-bottom: 1rem; */
     /* padding: 1rem 1rem; */
     border-radius: 1rem;
     /* background-color: hsl(219, 32%, 12%); */
     /* background-color: var(--first-color-alt); */
-    background-color: var(--container-color);
-    box-shadow: var(--service-shadow);
+    /* background-color: var(--container-color); */
+    /* box-shadow: var(--service-shadow); */
 }
 
 .skills__list .bxs-badge-check {
@@ -837,8 +850,8 @@ img {
 .skills__close .skills__list {
     height: 0;
     overflow: hidden;
-    transform: translateY(-3rem);
-    transition: all 0.5s ease 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
+    /* transform: translateY(-1.5rem); */
+    transition: all 0.6s ease 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
 }
 
 .skills__open .skills__list {
@@ -850,6 +863,7 @@ img {
 .skills__open .skills__arrow {
     transform: rotate(-180deg);
 }
+
 
 /*==================== QUALIFICATION ====================*/
 
