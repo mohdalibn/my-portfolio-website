@@ -43,7 +43,7 @@ function toggleSkills(){
     // }
     if(itemClass === 'skills__content skills__close'){
         this.parentNode.className = 'skills__content skills__open';
-        this.style.borderBottom = "1px solid rgba(255, 255, 255, 0.1)";
+        this.style.borderBottom = "var(--skills-border-bottom)";
     }
     else{
         this.parentNode.className = 'skills__content skills__close';
