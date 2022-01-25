@@ -42,10 +42,12 @@ function toggleSkills(){
     //     skillsContent[i].className = 'skills__content skills__close'
     // }
     if(itemClass === 'skills__content skills__close'){
-        this.parentNode.className = 'skills__content skills__open'
+        this.parentNode.className = 'skills__content skills__open';
+        this.style.borderBottom = "1px solid rgba(255, 255, 255, 0.1)";
     }
     else{
-        this.parentNode.className = 'skills__content skills__close'
+        this.parentNode.className = 'skills__content skills__close';
+        this.style.borderBottom = "none";
     }
 }
 
