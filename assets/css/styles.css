@@ -853,13 +853,13 @@ img {
     height: 0;
     overflow: hidden;
     /* transform: translateY(-1.5rem); */
-    transition: all 0.6s ease 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
+    transition: all 0.4s ease 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
 }
 
 .skills__open .skills__list {
     height: max-content;
     margin-bottom: var(--mb-2-5);
-    transition: all 0.6s ease 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
+    transition: all 0.4s ease 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
 }
 
 .skills__open .skills__arrow {
