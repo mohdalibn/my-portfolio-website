@@ -900,7 +900,7 @@ img {
 .outer__block {
     margin: 90px 0;
     width: 320px;
-    border-left: 2px solid #ccc;
+    border-left: 2px solid var(--basic-change);
     padding: 0 20px 0 30px;
 }
 
@@ -914,8 +914,30 @@ img {
     margin-bottom: 20px;
 }
 
+.qual__content:before {
+    content: '';
+    display: block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: var(--first-color);
+    /* border: 3px solid #fff; */
+    position: absolute;
+    top: 10px;
+    left: -39px;
+}
 
-
+.qual__content:after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: transparent var(--first-color) transparent transparent;
+    border-width: 8px;
+    position: absolute;
+    left: -16px;
+    top: 10px;
+}
 
 .qualification__title {
     font-size: var(--normal-font-size);
