@@ -87,6 +87,7 @@
 
     /* Basic Black/White change */
     --basic-change: var(--first-color-alt);
+    --basic-change-two: #000;
 
     /*========== z index ==========*/
     --z-tooltip: 10;
@@ -144,7 +145,8 @@ body.dark-theme {
     --service-shadow-hover: 0 4px 8px rgba(255, 255, 255, .25);
 
     /* Basic Black/White change */
-    --basic-change: white;
+    --basic-change: #fff;
+    --basic-change-two: #fff;
 
     /* Skills Bottom Border */
     --skills-border-bottom: 1px solid rgba(255, 255, 255, 0.2);
@@ -489,7 +491,7 @@ img {
 }
 
 .codepen__icon:hover {
-    color: #ffff;
+    color: var(--basic-change-two);
 }
 
 .instagram__icon:hover {
@@ -916,6 +918,10 @@ img {
     position: relative;
     /* height: 110px; */
     margin-bottom: 20px;
+}
+
+.qual__content:last-child {
+    margin-bottom: 0;
 }
 
 .qual__content:before {
