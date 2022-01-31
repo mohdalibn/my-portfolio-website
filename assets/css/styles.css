@@ -897,6 +897,23 @@ img {
     column-gap: 1.5rem;
 } */
 
+.outer__block {
+    margin: 90px 0;
+    width: 320px;
+    border-left: 2px solid #ccc;
+    padding: 0 20px 0 30px;
+}
+
+.qual__content {
+    background-color: var(--first-color);
+    border-radius: 5px 30px 5px 30px;
+    padding: 10px 25px;
+    line-height: 1.7;
+    position: relative;
+    /* height: 110px; */
+    margin-bottom: 20px;
+}
+
 
 
 
