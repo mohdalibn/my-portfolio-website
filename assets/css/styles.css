@@ -898,10 +898,12 @@ img {
 } */
 
 .outer__block {
+    display: flex;
+    flex-direction: column;
     margin-bottom: 2.5rem;
     margin-left: auto;
     margin-right: auto;
-    width: 320px;
+    max-width: 320px;
     border-left: 2px solid var(--first-color);
     padding: 0 20px 0 30px;
 }
@@ -1840,6 +1842,14 @@ option:first {
         grid-template-columns: .5fr;
     }
 
+    .qualification__container {
+        max-width: 1400px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0;
+        column-gap: 0;
+    }
+
 
     .services__container {
         grid-template-columns: repeat(4, 165px);
@@ -1976,6 +1986,7 @@ option:first {
     .services__content {
         padding: 6rem 0 2rem 2.5rem;
     }
+
 }
 
 /* For large devices */
@@ -2016,13 +2027,13 @@ option:first {
         border: 1px solid red;
     }
 
-    .qualification__container {
+    /* .qualification__container {
         max-width: 1400px;
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 0;
         column-gap: 0;
-    }
+    } */
 
     .services__container {
         grid-template-columns: repeat(3, 238px);
