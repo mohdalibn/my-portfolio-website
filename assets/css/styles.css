@@ -56,7 +56,7 @@
     --service-shadow-hover: 0 4px 8px rgba(0, 0, 0, .15);
 
     /* Skills Bottom Border */
-    --skills-border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    --skills-border-bottom: 2px solid rgba(0, 0, 0, 0.2);
 
     /*========== Font and typography ==========*/
     --body-font: 'Poppins', sans-serif;
@@ -900,7 +900,7 @@ img {
 .outer__block {
     margin: 90px 0;
     width: 320px;
-    border-left: 2px solid var(--basic-change);
+    border-left: 2px solid var(--first-color);
     padding: 0 20px 0 30px;
 }
 
