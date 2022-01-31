@@ -898,7 +898,7 @@ img {
 } */
 
 .outer__block {
-    margin: 90px 0;
+    margin-bottom: 2.5rem;
     width: 320px;
     border-left: 2px solid var(--first-color);
     padding: 0 20px 0 30px;
