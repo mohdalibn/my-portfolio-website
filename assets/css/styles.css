@@ -899,6 +899,8 @@ img {
 
 .outer__block {
     margin-bottom: 2.5rem;
+    margin-left: auto;
+    margin-right: auto;
     width: 320px;
     border-left: 2px solid var(--first-color);
     padding: 0 20px 0 30px;
@@ -947,7 +949,7 @@ img {
 .qualification__subtitle {
     display: inline-block;
     font-size: var(--small-font-size);
-    margin-bottom: var(--mb-1);
+    /* margin-bottom: var(--mb-1); */
 }
 
 .qualification__calender {
