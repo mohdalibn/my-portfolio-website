@@ -914,6 +914,7 @@ img {
     background-color: var(--first-color);
     border-radius: 5px 30px 5px 30px;
     padding: 10px 25px;
+    /* padding-left: 15px; */
     line-height: 1.7;
     position: relative;
     /* height: 110px; */
