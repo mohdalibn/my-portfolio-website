@@ -2010,10 +2010,6 @@ option:first {
         padding: 6rem 0 2rem 2.5rem;
     }
 
-    .outer__block {
-        width: 450px;
-    }
-
 }
 
 /* For large devices */
@@ -2061,6 +2057,12 @@ option:first {
         gap: 0;
         column-gap: 0;
     } */
+
+    .outer__block {
+        width: 450px;
+    }
+
+
 
     .services__container {
         grid-template-columns: repeat(3, 238px);
