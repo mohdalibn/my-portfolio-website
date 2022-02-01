@@ -905,7 +905,7 @@ img {
     margin-bottom: 2.5rem;
     margin-left: auto;
     margin-right: auto;
-    max-width: 320px;
+    /* max-width: 320px; */
     border-left: 2px solid var(--first-color);
     padding: 0 20px 0 30px;
 }
@@ -1857,6 +1857,10 @@ option:first {
         column-gap: 0;
     }
 
+    .outer__block {
+        width: 350px;
+    }
+
 
     .services__container {
         grid-template-columns: repeat(4, 165px);
@@ -1982,6 +1986,10 @@ option:first {
     .nav__list {
         column-gap: 2rem;
     }
+
+    .outer__block {
+        width: 400px;
+    }
 }
 
 @media screen and (min-width: 868px) {
@@ -1992,6 +2000,10 @@ option:first {
 
     .services__content {
         padding: 6rem 0 2rem 2.5rem;
+    }
+
+    .outer__block {
+        width: 450px;
     }
 
 }
