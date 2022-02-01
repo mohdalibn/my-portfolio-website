@@ -155,7 +155,7 @@ body.dark-theme {
     --skills-border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 
     /* Qualification container Color */
-    --qual-color: hsl(var(--hue-color), 30%, 8%);
+    --qual-color: hsl(250, 50%, 28%);
 
 }
 
@@ -959,17 +959,19 @@ img {
 .qualification__title {
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
+    color: #fff;
 }
 
 .qualification__subtitle {
     display: inline-block;
     font-size: var(--small-font-size);
+    color: rgba(255, 255, 255, 0.75);
     /* margin-bottom: var(--mb-1); */
 }
 
 .qualification__calender {
     font-size: var(--smaller-font-size);
-    color: var(--text-color-light);
+    color: rgba(255, 255, 255, 0.75);
 }
 
 /* .qualification__rounder {
