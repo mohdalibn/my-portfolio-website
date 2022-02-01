@@ -89,6 +89,9 @@
     --basic-change: var(--first-color-alt);
     --basic-change-two: #000;
 
+    --qual-color: var(--first-color);
+
+
     /*========== z index ==========*/
     --z-tooltip: 10;
     --z-fixed: 100;
@@ -150,6 +153,9 @@ body.dark-theme {
 
     /* Skills Bottom Border */
     --skills-border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+
+    /* Qualification container Color */
+    --qual-color: hsl(var(--hue-color), 30%, 8%);
 
 }
 
@@ -911,7 +917,7 @@ img {
 }
 
 .qual__content {
-    background-color: var(--first-color);
+    background-color: var(--qual-color);
     border-radius: 5px 30px 5px 30px;
     padding: 10px 25px;
     /* padding-left: 15px; */
@@ -943,7 +949,7 @@ img {
     width: 0;
     height: 0;
     border-style: solid;
-    border-color: transparent var(--first-color) transparent transparent;
+    border-color: transparent var(--qual-color) transparent transparent;
     border-width: 8px;
     position: absolute;
     left: -16px;
