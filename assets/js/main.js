@@ -295,6 +295,7 @@ form.addEventListener("submit", handleSubmit)
 
 
 
+
 /*==================== SCROLL REVEAL ANIMATION ====================*/
 const sr = ScrollReveal({
     distance: '30px',

@@ -1,0 +1,210 @@
+                <h2 class="porfolio__subheadtitle">Python</h2>
+
+                <div class="portfolio__container container swiper">
+                    <div class="swiper-wrapper porfolio__single">
+                            <!--==================== PORTFOLIO 1 ====================-->
+                            <div class="portfolio__content grid swiper-slide">
+                                <img src="assets/img/portfolio1.jpg" alt="" class="portfolio__img"> 
+
+                                <div class="portfolio__data">
+                                    <h3 class="portfolio__title">AI Virtual Mouse Controller</h3>
+                                    <p class="portfolio__description">This is a test paragraph for the individual portfolio slides.</p>
+
+                                    <a href="javascript:void(0);" class="button button--flex button--small portfolio__button video__button" src="assets/video/teslacam.mp4" name="AI Virtual Mouse Controller">
+                                       Play Demo
+                                       <i class="uil uil-play button__icon portfolio__icon"></i>
+                                    </a>
+                
+                                </div>
+
+                              
+                            </div>
+
+
+                            <!--==================== PORTFOLIO 2 ====================-->
+                            <div class="portfolio__content grid swiper-slide">
+                                <img src="assets/img/portfolio2.jpg" alt="" class="portfolio__img"> 
+
+                                <div class="portfolio__data">
+                                    <h3 class="portfolio__title">Gesture Volume Controller</h3>
+                                    <p class="portfolio__description">This is a test paragraph for the individual portfolio slides.</p>
+
+                                    <a href="javascript:void(0);" class="button button--flex button--small portfolio__button" src="assets/video/bikervideo.mp4" name="Gesture Volume Controller">
+                                       Play Demo
+                                       <i class="uil uil-play button__icon"></i>
+                                    </a>
+                                </div>
+
+                            </div>
+
+                            <!--==================== PORTFOLIO 3 ====================-->
+                            <div class="portfolio__content grid swiper-slide">
+                                <img src="assets/img/portfolio3.jpg" alt="" class="portfolio__img"> 
+
+                                <div class="portfolio__data">
+                                    <h3 class="portfolio__title">Hand Landmark Traker</h3>
+                                    <p class="portfolio__description">This is a test paragraph for the individual portfolio slides.</p>
+
+                                    <a href="javascript:void(0);" class="button button--flex button--small portfolio__button" name="Hand Landmark Traker">
+                                       Play Demo
+                                       <i class="uil uil-play button__icon"></i>
+                                    </a>
+                                </div>
+
+                            </div>
+                    </div>
+
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next">
+                        <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                    </div>
+
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination">
+
+                    </div>
+
+                </div>
+
+                <h2 class="porfolio__subheadtitle">Web Development</h2>
+
+                <div class="portfolio__container container swiper">
+                    <div class="swiper-wrapper porfolio__single">
+                            <!--==================== PORTFOLIO 1 ====================-->
+                            <div class="portfolio__content grid swiper-slide">
+                                <img src="assets/img/portfolio1.jpg" alt="" class="portfolio__img"> 
+
+                                <div class="portfolio__data">
+                                    <h3 class="portfolio__title">AI Virtual Mouse Controller</h3>
+                                    <p class="portfolio__description">This is a test paragraph for the individual portfolio slides.</p>
+
+                                    <a href="javascript:void(0);" class="button button--flex button--small portfolio__button" name="Web Development Project 1">
+                                       Play Demo
+                                       <i class="uil uil-play button__icon"></i>
+                                    </a>
+                                </div>
+
+                            </div>
+                            <!--==================== PORTFOLIO 2 ====================-->
+                            <div class="portfolio__content grid swiper-slide">
+                                <img src="assets/img/portfolio2.jpg" alt="" class="portfolio__img"> 
+
+                                <div class="portfolio__data">
+                                    <h3 class="portfolio__title">Gesture Volume Controller</h3>
+                                    <p class="portfolio__description">This is a test paragraph for the individual portfolio slides.</p>
+
+                                    <a href="javascript:void(0);" class="button button--flex button--small portfolio__button" name="Web Development Project 2">
+                                       Play Demo
+                                       <i class="uil uil-play button__icon"></i>
+                                    </a>
+                                </div>
+
+                            </div>
+
+                            <!--==================== PORTFOLIO 3 ====================-->
+                            <div class="portfolio__content grid swiper-slide">
+                                <img src="assets/img/portfolio3.jpg" alt="" class="portfolio__img"> 
+
+                                <div class="portfolio__data">
+                                    <h3 class="portfolio__title">Hand Landmark Traker</h3>
+                                    <p class="portfolio__description">This is a test paragraph for the individual portfolio slides.</p>
+
+                                    <a href="javascript:void(0);" class="button button--flex button--small portfolio__button" name="Web Development Project 3">
+                                       Play Demo
+                                       <i class="uil uil-play button__icon"></i>
+                                    </a>
+                                </div>
+
+                            </div>
+                    </div>
+
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next">
+                        <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                    </div>
+
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination">
+
+                    </div>
+
+                </div>
+
+                <h2 class="porfolio__subheadtitle">C/C++</h2>
+
+                <div class="portfolio__container container swiper">
+                    <div class="swiper-wrapper porfolio__single">
+                            <!--==================== PORTFOLIO 1 ====================-->
+                            <div class="portfolio__content grid swiper-slide">
+                                <img src="assets/img/portfolio1.jpg" alt="" class="portfolio__img"> 
+
+                                <div class="portfolio__data">
+                                    <h3 class="portfolio__title">AI Virtual Mouse Controller</h3>
+                                    <p class="portfolio__description">This is a test paragraph for the individual portfolio slides.</p>
+
+                                    <a href="javascript:void(0);" class="button button--flex button--small portfolio__button" name="C++ Project 1">
+                                       Play Demo
+                                       <i class="uil uil-play button__icon"></i>
+                                    </a>
+                                </div>
+
+                            </div>
+                            <!--==================== PORTFOLIO 2 ====================-->
+                            <div class="portfolio__content grid swiper-slide">
+                                <img src="assets/img/portfolio2.jpg" alt="" class="portfolio__img"> 
+
+                                <div class="portfolio__data">
+                                    <h3 class="portfolio__title">Gesture Volume Controller</h3>
+                                    <p class="portfolio__description">This is a test paragraph for the individual portfolio slides.</p>
+
+                                    <a href="javascript:void(0);" class="button button--flex button--small portfolio__button" name="C++ Project 2">
+                                       Play Demo
+                                       <i class="uil uil-play button__icon"></i>
+                                    </a>
+                                </div>
+
+                            </div>
+
+                            <!--==================== PORTFOLIO 3 ====================-->
+                            <div class="portfolio__content grid swiper-slide">
+                                <img src="assets/img/portfolio3.jpg" alt="" class="portfolio__img"> 
+
+                                <div class="portfolio__data">
+                                    <h3 class="portfolio__title">Hand Landmark Traker</h3>
+                                    <p class="portfolio__description">This is a test paragraph for the individual portfolio slides.</p>
+
+                                    <a href="javascript:void(0);" class="button button--flex button--small portfolio__button" name="C++ Project 3">
+                                       Play Demo
+                                       <i class="uil uil-play button__icon"></i>
+                                    </a>
+                                </div>
+
+                            </div>
+                    </div>
+
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next">
+                        <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                    </div>
+
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination">
+
+                    </div>
+
+                </div>
+
+                <div class="video__container">
+                    <span class="video__close">&#10006;</span>
+                    <h3 class="video__title"></h3>
+                    <video controls="true" controlsList="nodownload"></video>
+                </div>
