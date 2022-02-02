@@ -736,6 +736,7 @@ img {
     border-radius: 1.2rem;
     margin-bottom: 1.5rem;
     box-shadow: var(--service-shadow);
+    transition: height 200ms ease-in-out;
 }
 
 .skills__content:nth-child(4) {
@@ -747,7 +748,9 @@ img {
     padding-left: 2rem;
     padding-right: 1rem;
     border-radius: 1rem;
+    /* border: 1px solid red; */
 }
+
 
 .skills__list .bxs-badge-check {
     color: var(--first-color);
@@ -758,7 +761,7 @@ img {
     /* border-bottom: 1px solid white; */
 }
 
-/* .skills__data:nth-child(4) {
+/* .skills__data:last-child {
     border-bottom: none;
 } */
 
@@ -858,16 +861,20 @@ img {
 }
 
 .skills__close .skills__list {
-    height: 0;
+    max-height: 0;
     overflow: hidden;
+    transition: max-height 200ms;
     /* transform: translateY(-1.5rem); */
-    transition: all 0.4s ease 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
+    /* transition: all 0.4s ease 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s; */
+    /* transition: max-height 200ms ease-in-out; */
 }
 
 .skills__open .skills__list {
-    height: max-content;
+    max-height: 300px;
     margin-bottom: var(--mb-2-5);
-    transition: all 0.4s ease 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
+    transition: max-height 400ms;
+    /* transition: all 0.4s ease 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s; */
+    /* transition: max-height 200ms ease-in-out; */
 }
 
 .skills__open .skills__arrow {
