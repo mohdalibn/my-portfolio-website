@@ -1329,12 +1329,13 @@ img {
     border-radius: 20px;
     background: #fff;
     margin: 20px 0;
+    width: 280px;
 }
 
 .test-card::before {
     content: "";
     position: absolute;
-    height: 55%;
+    height: 40%;
     width: 100%;
     background: rgb(54, 0, 141);
     border-radius: 20px 20px 0 0;
@@ -1361,11 +1362,69 @@ img {
 }
 
 .test-media-icons i {
-    /* color: #fff; */
+    color: #fff;
     opacity: 0.6;
+    margin-top: 10px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.test-media-icons i:hover {
+    opacity: 1;
+}
+
+.test-name-profession {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-top: 10px;
 }
 
+.test-name-profession .name {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.test-name-profession .profession {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.test-card .test-rating {
+    display: flex;
+    align-items: center;
+    margin-top: 18px;
+}
+
+.test-card .test-rating i {
+    font-size: 18px;
+    margin: 0 2px;
+    color: rgb(54, 0, 141);
+}
+
+.test-card .test-button {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.test-card .test-button button {
+    background: rgb(54, 0, 141);
+    outline: none;
+    border: none;
+    color: #fff;
+    padding: 8px 22px;
+    border-radius: 20px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.test-button button:hover {
+    background: #6616d0;
+
+}
 
 /*==================== PROJECT IN MIND ====================*/
 
