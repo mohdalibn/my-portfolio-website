@@ -1295,10 +1295,41 @@ img {
 
 }
 
+.test-outer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(22, 10, 41);
+}
 
+.test-card .test-image {
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    padding: 3px;
+    background: rgb(54, 0, 141);
+}
 
+.test-card .test-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
 
+.test-card {
+    border-radius: 20px;
+    background: #fff;
+}
 
+.test-media-icons i,
+.test-name-profession span,
+.test-rating i {
+    color: #000;
+}
+
+.test-card-content {}
 
 /*==================== PROJECT IN MIND ====================*/
 
