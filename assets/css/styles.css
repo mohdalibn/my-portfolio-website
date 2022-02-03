@@ -1299,7 +1299,13 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgb(22, 10, 41);
+    /* background: rgb(22, 10, 41); */
+}
+
+.test-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .test-card .test-image {
@@ -1425,6 +1431,7 @@ img {
     background: #6616d0;
 
 }
+
 
 /*==================== PROJECT IN MIND ====================*/
 
