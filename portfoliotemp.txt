@@ -1,3 +1,9 @@
+            <!--==================== PORTFOLIO ====================-->
+            <section class="portfolio section" id="portfolio">
+                <h2 class="section__title top__border">My Portfolio</h2>
+                <span class="section__subtitle">Personal Coding Projects</span>
+                
+                
                 <h2 class="porfolio__subheadtitle">Python</h2>
 
                 <div class="portfolio__container container swiper">
@@ -208,3 +214,6 @@
                     <h3 class="video__title"></h3>
                     <video controls="true" controlsList="nodownload"></video>
                 </div>
+
+        
+            </section>
