@@ -295,9 +295,9 @@ form.addEventListener("submit", handleSubmit)
 
 
 $(document).ready(function(){
-    $('.owl-carousel').owlCarousel({
+    $('.test-container').owlCarousel({
         loop:true,
-        margin:10,
+        margin: 10,
         responsiveClass:true,
         responsive:{
             0:{
@@ -315,7 +315,7 @@ $(document).ready(function(){
             }
         }
     })
-  });
+});
 
 
 /*==================== SCROLL REVEAL ANIMATION ====================*/

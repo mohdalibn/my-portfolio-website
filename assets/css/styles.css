@@ -1299,13 +1299,28 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
     /* background: rgb(22, 10, 41); */
+    /* border: 5px solid red; */
+    /* overflow: hidden; */
 }
 
 .test-container {
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid rgb(55, 10, 180); */
+    /* overflow: hidden; */
+}
+
+.test-content {
+    /* width: 280px; */
     display: flex;
     justify-content: center;
     align-items: center;
+    /* border: 5px solid rgb(5, 105, 18); */
 }
 
 .test-card .test-image {
