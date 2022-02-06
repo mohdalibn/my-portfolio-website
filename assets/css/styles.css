@@ -1319,13 +1319,11 @@ img {
     /* overflow: hidden; */
 }
 
-.test-content {
-    /* width: 280px; */
+/* .test-content {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border: 5px solid rgb(5, 105, 18); */
-}
+} */
 
 .test-card .test-image {
     height: 140px;
