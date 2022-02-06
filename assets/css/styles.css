@@ -1171,6 +1171,7 @@ img {
 .porfolio__subheadtitle {
     text-align: center;
     /* margin-bottom: var(--mb-3); */
+    margin-bottom: 1rem;
 }
 
 .portfolio__title {
@@ -1270,26 +1271,33 @@ img {
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
+    padding-top: 0;
+    margin-bottom: 4rem;
+}
+
+.test-outer:last-child {
+    margin-bottom: 0;
 }
 
 .test-container {
     width: 100%;
-    height: 450px;
+    height: 400px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
+    /* border: 1px solid red; */
 }
 
 .swiper {
     width: 1100px;
 }
 
-
 .test-content {
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
+    /* border: 1px solid red; */
 }
 
 .test-card .test-image {
@@ -1318,8 +1326,9 @@ img {
     position: relative;
     border-radius: 20px;
     background: #fff;
-    margin: 20px 0;
+    /* margin: 20px 0; */
     width: 280px;
+    height: 350px;
 }
 
 .test-card::before {
@@ -1441,10 +1450,12 @@ img {
 
 .swiper-button-prev {
     left: -0.3rem;
+    top: 11rem;
 }
 
 .swiper-button-next {
     right: -0.3rem;
+    top: 11rem;
 }
 
 .swiper-button-prev,
