@@ -954,57 +954,7 @@
                 <h2 class="section__title top__border">My Portfolio</h2>
                 <span class="section__subtitle">Personal Coding Projects</span>
 
-                <div class="test-outer">
-                    <div class="test-container swiper mySwiper">
-                     
-                            <div class="swiper-wrapper test-content">
 
-
-                                <div class="swiper-slide test-card">
-                                    <div class="test-card-content">
-                                        <div class="test-image">
-                                            <img src="assets/img/aremoji1.png" alt="">
-                                        </div>
-                                        
-                                        <div class="test-media-icons">
-                                            <i class="fab fa-facebook"></i>
-                                            <i class="fab fa-twitter"></i>
-                                            <i class="fab fa-github"></i>
-                                        </div>
-                            
-                                        <div class="test-name-profession">
-                                            <span class="name">Someone Name</span>
-                                            <span class="profession">Web Developer</span>
-                                        </div>
-                            
-                                        <div class="test-rating">
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="far fa-star"></i>
-                                            <i class="far fa-star"></i>
-                                        </div>
-                            
-                                        <div class="test-button">
-                                            <button class="aboutMe">About Me</button>
-                                            <button class="hireMe">Hire Me</button>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                
-                        <div class="swiper-button-next">
-                            <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
-                        </div>
-                        <div class="swiper-button-prev">
-                            <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
-                        </div>
-                        <div class="swiper-pagination"></div>
-                        
-                    </div>
-
-                </div>
                 
 
             </section>
@@ -1190,6 +1140,45 @@
 
         <!-- Initialize Swiper -->
 
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+                speed: 550,
+                slidesPerView: 3,
+                // spaceBetween: 30,
+                slidesPerGroup: 1,
+                loop: true,
+                loopFillGroupWithBlank: true,
+                pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+                },
+                navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+                },
+                breakpoints: {
+                    // when window width is >= 320px
+                    320: {
+                    slidesPerView: 1,
+                    spaceBetween: 20
+                    },
+                    // when window width is >= 480px
+                    480: {
+                    slidesPerView: 1,
+                    spaceBetween: 30
+                    },
+                    // when window width is >= 640px
+                    779: {
+                    slidesPerView: 2,
+                    spaceBetween: 40
+                    },
+                    1024: {
+                    slidesPerView: 3,
+                    spaceBetween: 0
+                    }
+                }
+            });
+            </script>
 
         <!-- JQuery  -->
         <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> -->
