@@ -1462,6 +1462,29 @@ img {
     opacity: 1;
 }
 
+.swiper-button-prev::after,
+.swiper-button-next::after {
+    content: '';
+}
+
+.swiper-portfolio-icon {
+    font-size: 3rem;
+    color: var(--first-color);
+}
+
+.swiper-button-prev {
+    left: -0.3rem;
+}
+
+.swiper-button-next {
+    right: -0.3rem;
+}
+
+.swiper-button-prev,
+.swiper-button-next,
+.swiper-pagination-bullet {
+    outline: none;
+}
 
 /*==================== PROJECT IN MIND ====================*/
 
