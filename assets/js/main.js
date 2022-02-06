@@ -299,19 +299,19 @@ $(document).ready(function(){
         loop:true,
         margin: 10,
         responsiveClass:true,
+        nav: true,
         responsive:{
             0:{
                 items:1,
                 nav:true
             },
-            600:{
+            779:{
                 items:2,
                 nav:false
             },
-            1000:{
+            1024:{
                 items:3,
-                nav:true,
-                loop:false
+                nav:true
             }
         }
     })
