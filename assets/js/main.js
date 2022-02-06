@@ -133,21 +133,23 @@ modelCloses.forEach((modelClose) =>{
 
 /*==================== PORTFOLIO SWIPER  ====================*/
 
-let swiper = new Swiper('.portfolio__container', {
-    cssMode: true,
-    loop: true,
+// let swiper = new Swiper('.MySwiper', {
+//     // cssMode: true,
+//     // loop: true,
+//     slidesPerView: 3,
+//     spaceBetween: 50,
 
-    navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-    },
-    pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-    },
-    // mousewheel: true,
-    // keyboard: true,
-});
+//     navigation: {
+//     nextEl: ".swiper-button-next",
+//     prevEl: ".swiper-button-prev",
+//     },
+//     pagination: {
+//     el: ".swiper-pagination",
+//     clickable: true,
+//     },
+//     // mousewheel: true,
+//     // keyboard: true,
+// });
 
 
 
@@ -295,7 +297,7 @@ form.addEventListener("submit", handleSubmit)
 
 
 $(document).ready(function(){
-    $('.test-container').owlCarousel({
+    $('.FirstTest').owlCarousel({
         loop:true,
         margin: 10,
         responsiveClass:true,
