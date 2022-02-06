@@ -1429,8 +1429,8 @@ img {
     height: 5px;
     width: 30px;
     border-radius: 10px;
-    background: white;
-    opacity: .5;
+    background: var(--basic-change);
+    /* opacity: .5; */
 }
 
 .swiper-pagination-bullet-active {

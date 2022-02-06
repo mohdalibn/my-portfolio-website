@@ -133,23 +133,43 @@ modelCloses.forEach((modelClose) =>{
 
 /*==================== PORTFOLIO SWIPER  ====================*/
 
-// let swiper = new Swiper('.MySwiper', {
-//     // cssMode: true,
-//     // loop: true,
-//     slidesPerView: 3,
-//     spaceBetween: 50,
-
-//     navigation: {
-//     nextEl: ".swiper-button-next",
-//     prevEl: ".swiper-button-prev",
-//     },
-//     pagination: {
-//     el: ".swiper-pagination",
-//     clickable: true,
-//     },
-//     // mousewheel: true,
-//     // keyboard: true,
-// });
+var swiper = new Swiper(".mySwiper", {
+    speed: 550,
+    slidesPerView: 3,
+    // spaceBetween: 30,
+    slidesPerGroup: 1,
+    loop: true,
+    loopFillGroupWithBlank: true,
+    pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+    },
+    navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+    },
+    breakpoints: {
+        // when window width is >= 320px
+        320: {
+        slidesPerView: 1,
+        spaceBetween: 20
+        },
+        // when window width is >= 480px
+        480: {
+        slidesPerView: 1,
+        spaceBetween: 30
+        },
+        // when window width is >= 640px
+        779: {
+        slidesPerView: 2,
+        spaceBetween: 40
+        },
+        1024: {
+        slidesPerView: 3,
+        spaceBetween: 0
+        }
+    }
+});
 
 
 
