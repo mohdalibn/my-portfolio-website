@@ -150,20 +150,20 @@ var swiper = new Swiper(".mySwiper", {
     },
     breakpoints: {
         // when window width is >= 320px
-        320: {
+        0: {
         slidesPerView: 1,
-        spaceBetween: 20
+        spaceBetween: 0
         },
         // when window width is >= 480px
-        480: {
-        slidesPerView: 1,
-        spaceBetween: 30
+        568: {
+        slidesPerView: 2,
+        spaceBetween: 0
         },
         // when window width is >= 640px
-        779: {
-        slidesPerView: 2,
-        spaceBetween: 40
-        },
+        // 779: {
+        // slidesPerView: 2,
+        // spaceBetween: 40
+        // },
         1024: {
         slidesPerView: 3,
         spaceBetween: 0
