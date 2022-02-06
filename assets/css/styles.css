@@ -1315,7 +1315,7 @@ img {
 }
 
 .swiper {
-    width: 750px;
+    width: 1100px;
 }
 
 
@@ -1449,33 +1449,7 @@ img {
 
 }
 
-.owl-nav .owl-next {
-    position: absolute;
-    top: calc(50% - 25px);
-    right: 0;
-    opacity: 1;
-    font-size: 30px !important;
-    z-index: 1;
-}
-
-.owl-nav .owl-next:hover {
-    background: none;
-    border: none;
-}
-
-.owl-nav .owl-prev {
-    position: absolute;
-    top: calc(50% - 25px);
-    left: 0;
-    opacity: 1;
-    font-size: 30px !important;
-    z-index: 1;
-}
-
-
-
 .swiper-pagination-bullet {
-    /* position: absolute; */
     height: 5px;
     width: 30px;
     border-radius: 10px;
@@ -1484,7 +1458,6 @@ img {
 }
 
 .swiper-pagination-bullet-active {
-    color: purple;
     background: purple;
     opacity: 1;
 }
