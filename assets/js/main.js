@@ -300,6 +300,11 @@ $(document).ready(function(){
         margin: 10,
         responsiveClass:true,
         nav: true,
+        dots: true,
+        navText:[
+            "<i class='fa fa-angle-left'><i>",
+            "<i class='fa fa-angle-right'><i>"
+        ],
         responsive:{
             0:{
                 items:1,
@@ -307,7 +312,7 @@ $(document).ready(function(){
             },
             779:{
                 items:2,
-                nav:false
+                nav:true
             },
             1024:{
                 items:3,

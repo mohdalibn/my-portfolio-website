@@ -1452,8 +1452,13 @@ img {
     top: calc(50% - 25px);
     right: 0;
     opacity: 1;
-    font-size: 30px;
+    font-size: 30px !important;
     z-index: 1;
+}
+
+.owl-nav .owl-next:hover {
+    background: none;
+    border: none;
 }
 
 .owl-nav .owl-prev {
@@ -1461,7 +1466,7 @@ img {
     top: calc(50% - 25px);
     left: 0;
     opacity: 1;
-    font-size: 30px;
+    font-size: 30px !important;
     z-index: 1;
 }
 
