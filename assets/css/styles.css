@@ -1295,6 +1295,10 @@ img {
 
 }
 
+.portfolio-section {
+    padding: 0;
+}
+
 .test-outer {
     display: flex;
     justify-content: center;
@@ -1303,10 +1307,6 @@ img {
     /* background: rgb(22, 10, 41); */
     /* border: 5px solid red; */
     /* overflow: hidden; */
-}
-
-.swiper {
-    width: 750px;
 }
 
 .test-container {
@@ -1319,11 +1319,16 @@ img {
     /* overflow: hidden; */
 }
 
-/* .test-content {
+.swiper {
+    width: 750px;
+}
+
+
+.test-content {
     display: flex;
     justify-content: center;
     align-items: center;
-} */
+}
 
 .test-card .test-image {
     height: 140px;
