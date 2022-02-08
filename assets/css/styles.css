@@ -1184,9 +1184,9 @@ img {
 }
 
 .portfolio__button {
-    background: none;
+    /* background: none; */
     float: right;
-    color: var(--first-color);
+    color: #FFF;
     border: 1px solid var(--first-color);
     border-radius: 20px;
     padding: 0.5rem;
@@ -1194,6 +1194,8 @@ img {
 
 .portfolio__button:hover {
     color: #FFF;
+    color: var(--first-color);
+    background: none;
 }
 
 .portfolio__button:hover .button__icon {
