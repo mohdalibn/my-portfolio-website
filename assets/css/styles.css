@@ -1205,9 +1205,6 @@ img {
     padding: 0 1.5rem;
 }
 
-.portfolio__image__container {
-    height: max-content;
-}
 
 .play-button {
     position: absolute;
@@ -1232,7 +1229,7 @@ img {
     transform-origin: 50% 50%;
 }
 
-.play-button:hover {
+/* .play-button:hover {
 
     transform-origin: center;
     transform: scale(1.1);
@@ -1242,19 +1239,26 @@ img {
     transform-origin: center;
     transform: translateZ(0px) rotate(90deg);
     fill: #67fbbe;
-}
+} */
 
 .portfolio__img {
     width: 256px;
     border-radius: .5rem;
     justify-self: center;
+    cursor: pointer;
 }
 
-/* .portfolio__data {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-} */
+.portfolio__img:hover+.play-button {
+    transform-origin: center;
+    transform: scale(1.1);
+}
+
+.portfolio__img:hover+.play-button .polygon {
+    transform-origin: center;
+    transform: translateZ(0px) rotate(90deg);
+    fill: #67fbbe;
+}
+
 
 .porfolio__subheadtitle {
     text-align: center;
