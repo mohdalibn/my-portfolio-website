@@ -1229,7 +1229,7 @@ img {
     transform-origin: 50% 50%;
 }
 
-/* .play-button:hover {
+.play-button:hover {
 
     transform-origin: center;
     transform: scale(1.1);
@@ -1239,18 +1239,24 @@ img {
     transform-origin: center;
     transform: translateZ(0px) rotate(90deg);
     fill: #67fbbe;
-} */
+}
 
 .portfolio__img {
     width: 256px;
     border-radius: .5rem;
     justify-self: center;
     cursor: pointer;
+    overflow: hidden;
+    transition: transform 0.5s;
 }
+
+/* .portfolio__img:hover {
+    transform: translateY(20px) scale(1.2);
+} */
 
 .portfolio__img:hover+.play-button {
     transform-origin: center;
-    transform: scale(1.1);
+    transform: scale(1.15);
 }
 
 .portfolio__img:hover+.play-button .polygon {

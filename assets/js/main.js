@@ -177,7 +177,7 @@ document.querySelectorAll('.video__button').forEach(vid => {
     vid.onclick = () =>{
         var video = document.querySelector('.video__container');
         video.classList.add("active__video");
-        document.querySelector('.video__container video').src = vid.getAttribute("src");
+        document.querySelector('.video__container video').src = vid.getAttribute("data-src");
         document.querySelector('.video__container .video__title').innerHTML = vid.getAttribute("name");
         document.getElementById('htmlid').style.overflowY='hidden';
     }
