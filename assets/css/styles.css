@@ -1211,6 +1211,12 @@ img {
     justify-self: center;
 }
 
+/* .portfolio__data {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} */
+
 .porfolio__subheadtitle {
     text-align: center;
     /* margin-bottom: var(--mb-3); */
@@ -1330,7 +1336,7 @@ img {
 
 .test-container {
     width: 100%;
-    height: 430px;
+    height: 450px;
     display: flex;
     justify-content: space-between;
     /* align-items: center; */
