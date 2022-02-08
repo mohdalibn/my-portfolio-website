@@ -395,7 +395,8 @@ sr.reveal(`.qualification__sections`,{origin: 'top',interval: 200})
 
 // Porfolio Page Animations
 sr.reveal(`.porfolio__subheadtitle`,{origin: 'left',interval: 100})
-sr.reveal(`.porfolio__single`,{origin: 'left',interval: 100})
+// sr.reveal(`.porfolio__single`,{origin: 'left',interval: 100})
+sr.reveal(`.test-outer`,{origin: 'left',interval: 100, delay: 300})
 
 // Contact Page Animations
 sr.reveal(`.contact__partone`,{origin: 'left'})
