@@ -1864,6 +1864,10 @@ option:first {
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .contact__container {
+        padding: 50px 20px 0 20px;
+    }
+
     .footer__container {
         grid-template-columns: repeat(3, 1fr);
     }
@@ -1887,6 +1891,10 @@ option:first {
 @media screen and (min-width: 668px) {
     .swiper {
         width: 1100px;
+    }
+
+    .contact__container {
+        padding: 50px 30px 0 30px;
     }
 }
 
@@ -2143,6 +2151,11 @@ option:first {
         padding-top: .8rem;
     }
 
+
+    .contact__container {
+        padding: 50px 50px 0 50px;
+    }
+
     /* CSS for a part that you didn't add End */
 
     /* css for hovering contact container */
@@ -2236,6 +2249,11 @@ option:first {
         padding: 6rem 0 2rem 2.5rem;
     }
 
+    .contact__container {
+        max-width: 840px;
+        padding: 50px 50px 0 50px;
+    }
+
 }
 
 /* For large devices */
@@ -2317,6 +2335,10 @@ option:first {
     /* .swiper-horizontal > .swiper-pagination-bullets{
         bottom: -4.5rem;
     } */
+
+    .contact__container {
+        max-width: 940px;
+    }
 
     .contact__form {
         width: 460px;
