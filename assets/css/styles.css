@@ -51,12 +51,32 @@
     --nav-mobile-background: #FFF;
     --nav-menu-shadow: 0 0px 4px rgba(0, 0, 0, 0.15);
 
+    /* Skills Shadow */
+    --skills-shadow: 0 2px 4px rgba(0, 0, 0, .15);
+
     /* Services Shadow */
     --service-shadow: 0 2px 4px rgba(0, 0, 0, .15);
     --service-shadow-hover: 0 4px 8px rgba(0, 0, 0, .15);
 
     /* Skills Bottom Border */
     --skills-border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+
+    /* Portfolio Card Color & Shadow */
+    --portfolio-card-color: #FFF;
+    --portfolio-card-shadow: 0 1px 2px rgba(0, 0, 0, 0.07),
+        0 2px 4px rgba(0, 0, 0, 0.07),
+        0 4px 8px rgba(0, 0, 0, 0.07),
+        0 8px 16px rgba(0, 0, 0, 0.07),
+        0 16px 32px rgba(0, 0, 0, 0.07),
+        0 32px 64px rgba(0, 0, 0, 0.07);
+    --portfolio-card-shadow-hover: ;
+
+    /* Portfolio Button Color */
+    --portfolio-button-color: #FFF;
+    --portfolio-button-hover-color: var(--first-color);
+    --portfolio-button-bg: var(--first-color);
+    --portfolio-button-hover-bg: none;
+
 
     /*========== Font and typography ==========*/
     --body-font: 'Poppins', sans-serif;
@@ -143,9 +163,32 @@ body.dark-theme {
     --nav-mobile-background: rgb(11, 11, 11);
     --nav-menu-shadow: 0 -1px 4px rgba(255, 255, 255, 0.55);
 
+    /* Skills Shadow */
+    --skills-shadow: none;
+
     /* Services Shadow */
-    --service-shadow: 0 2px 4px rgba(255, 255, 255, .25);
-    --service-shadow-hover: 0 4px 8px rgba(255, 255, 255, .25);
+    --service-shadow: none;
+    --service-shadow-hover: 0 2px 4px rgba(255, 255, 255, .25);
+
+    /* Portfolio Card Color & Shadow */
+    --portfolio-card-color: var(--first-color-second);
+    /* --portfolio-card-shadow: 0 1px 2px rgba(255, 255, 255, 0.07),
+        0 1px 2px rgba(255, 255, 255, 0.07),
+        0 2px 4px rgba(255, 255, 255, 0.07),
+        0 4px 8px rgba(255, 255, 255, 0.07),
+        0 8px 16px rgba(255, 255, 255, 0.07),
+        0 16px 32px rgba(255, 255, 255, 0.07); */
+    --portfolio-card-shadow: none;
+    ;
+    --portfolio-card-shadow-hover: ;
+
+
+    /* Portfolio Button Color */
+    --portfolio-button-color: var(--first-color);
+    --portfolio-button-hover-color: #FFF;
+    --portfolio-button-bg: none;
+    --portfolio-button-hover-bg: var(--first-color);
+
 
     /* Basic Black/White change */
     --basic-change: #fff;
@@ -735,7 +778,7 @@ img {
     background-color: var(--container-color);
     border-radius: 1.2rem;
     margin-bottom: 1.5rem;
-    box-shadow: var(--service-shadow);
+    box-shadow: var(--skills-shadow);
     transition: height 200ms ease-in-out;
 }
 
@@ -1168,6 +1211,12 @@ img {
     justify-self: center;
 }
 
+/* .portfolio__data {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} */
+
 .porfolio__subheadtitle {
     text-align: center;
     /* margin-bottom: var(--mb-3); */
@@ -1176,23 +1225,30 @@ img {
 
 .portfolio__title {
     font-size: var(--h3-font-size);
-    margin-bottom: var(--mb-0-5);
+    height: 3rem;
+    /* margin-bottom: var(--mb-0-5); */
+    margin-bottom: 0.1rem;
 }
 
 .portfolio__description {
-    margin-bottom: var(--mb-0-75);
+    /* margin-bottom: var(--mb-0-75); */
+    margin-bottom: 0.1rem;
+    height: 3.5rem;
+    /* margin-bottom: 4rem; */
 }
 
 .portfolio__button {
-    background: none;
-    color: var(--first-color);
+    background: var(--portfolio-button-bg);
+    float: right;
+    color: var(--portfolio-button-color);
     border: 1px solid var(--first-color);
     border-radius: 20px;
     padding: 0.5rem;
 }
 
 .portfolio__button:hover {
-    color: #FFF;
+    color: var(--portfolio-button-hover-color);
+    background: var(--portfolio-button-hover-bg);
 }
 
 .portfolio__button:hover .button__icon {
@@ -1282,7 +1338,7 @@ img {
 
 .test-container {
     width: 100%;
-    height: 400px;
+    height: 450px;
     display: flex;
     justify-content: space-between;
     /* align-items: center; */
@@ -1325,10 +1381,10 @@ img {
 .test-card {
     position: relative;
     border-radius: 20px;
-    background: #fff;
-    /* margin: 20px 0; */
     width: 280px;
-    height: 350px;
+    height: 395px;
+    background-color: var(--portfolio-card-color);
+    box-shadow: var(--portfolio-card-shadow);
 }
 
 .test-card::before {
@@ -1336,7 +1392,7 @@ img {
     position: absolute;
     height: 40%;
     width: 100%;
-    background: rgb(54, 0, 141);
+    /* background: rgb(54, 0, 141); */
     border-radius: 20px 20px 0 0;
 }
 
@@ -1345,24 +1401,43 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 30px;
+    padding: 15px;
     position: relative;
     z-index: 100;
 
 }
 
-.test-media-icons {
-    position: absolute;
-    top: 10px;
-    right: 20px;
+.portfolio-button-container {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+}
+
+.test-media-icons {
+    /* position: absolute;
+    top: 10px;
+    right: 20px; */
+    display: flex;
+    /* flex-direction: column; */
     align-items: center;
+    gap: 10px;
+    margin-bottom: 1rem;
+}
+
+.test-media-icons a {
+    color: var(--basic-change-two);
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.test-media-icons a:hover {
+    color: var(--first-color);
+
 }
 
 .test-media-icons i {
-    color: #fff;
-    opacity: 0.6;
+    color: var(--basic-change-two);
+    opacity: 0.8;
+    font-size: 16px;
     margin-top: 10px;
     transition: all 0.3s ease;
     cursor: pointer;
@@ -1450,12 +1525,12 @@ img {
 
 .swiper-button-prev {
     left: -0.1rem;
-    top: 11rem;
+    top: 13rem;
 }
 
 .swiper-button-next {
     right: -0.1rem;
-    top: 11rem;
+    top: 12.5rem;
 }
 
 .swiper-button-prev,
@@ -1471,12 +1546,27 @@ img {
 
 
 /*==================== CONTACT ME ====================*/
+
+.contact__heading__subtitle {
+    margin-bottom: 1rem;
+}
+
 .contact__container {
     row-gap: 3rem;
+    border-radius: 20px;
+    /* Padding order -> Top - Right - Bottom - Left */
+    padding: 50px 10px 0 10px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07),
+        0 2px 4px rgba(0, 0, 0, 0.07),
+        0 4px 8px rgba(0, 0, 0, 0.07),
+        0 8px 16px rgba(0, 0, 0, 0.07),
+        0 16px 32px rgba(0, 0, 0, 0.07),
+        0 32px 64px rgba(0, 0, 0, 0.07);
 }
 
 .contact__information {
     display: flex;
+    width: 100%;
     margin-bottom: var(--mb-2);
 }
 
@@ -1840,6 +1930,10 @@ option:first {
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .contact__container {
+        padding: 50px 20px 0 20px;
+    }
+
     .footer__container {
         grid-template-columns: repeat(3, 1fr);
     }
@@ -1863,6 +1957,10 @@ option:first {
 @media screen and (min-width: 668px) {
     .swiper {
         width: 1100px;
+    }
+
+    .contact__container {
+        padding: 50px 30px 0 30px;
     }
 }
 
@@ -1902,6 +2000,10 @@ option:first {
 
     .section__subtitle {
         margin-bottom: 4rem;
+    }
+
+    .contact__heading__subtitle {
+        margin-bottom: 1rem;
     }
 
     .header {
@@ -2115,6 +2217,11 @@ option:first {
         padding-top: .8rem;
     }
 
+
+    .contact__container {
+        padding: 50px 50px 0 50px;
+    }
+
     /* CSS for a part that you didn't add End */
 
     /* css for hovering contact container */
@@ -2208,6 +2315,11 @@ option:first {
         padding: 6rem 0 2rem 2.5rem;
     }
 
+    .contact__container {
+        max-width: 840px;
+        padding: 50px 50px 0 50px;
+    }
+
 }
 
 /* For large devices */
@@ -2290,6 +2402,10 @@ option:first {
         bottom: -4.5rem;
     } */
 
+    .contact__container {
+        max-width: 940px;
+    }
+
     .contact__form {
         width: 460px;
     }
@@ -2331,6 +2447,19 @@ option:first {
     .services__container {
         grid-template-columns: repeat(4, 218px);
         justify-content: center;
+    }
+
+    .portfolio__title {
+        font-size: 1rem;
+    }
+
+    .portfolio__description {
+        font-size: var(--smaller-font-size);
+    }
+
+    .contact__container {
+        max-width: 968px;
+        padding: 50px 50px 0 50px;
     }
 
 
