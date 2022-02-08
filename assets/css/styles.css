@@ -1220,10 +1220,13 @@ img {
 .portfolio__title {
     font-size: var(--h3-font-size);
     margin-bottom: var(--mb-0-5);
+    margin-bottom: 0.1rem;
 }
 
 .portfolio__description {
-    margin-bottom: var(--mb-0-75);
+    /* margin-bottom: var(--mb-0-75); */
+    margin-bottom: 0.1rem;
+    /* margin-bottom: 4rem; */
 }
 
 .portfolio__button {
@@ -1371,7 +1374,7 @@ img {
     position: relative;
     border-radius: 20px;
     width: 280px;
-    height: 380px;
+    height: 400px;
     background-color: var(--portfolio-card-color);
     box-shadow: var(--portfolio-card-shadow);
 }
@@ -1396,18 +1399,37 @@ img {
 
 }
 
-.test-media-icons {
-    position: absolute;
-    top: 10px;
-    right: 20px;
+.portfolio-button-container {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+}
+
+.test-media-icons {
+    /* position: absolute;
+    top: 10px;
+    right: 20px; */
+    display: flex;
+    /* flex-direction: column; */
     align-items: center;
+    gap: 10px;
+    margin-bottom: 1rem;
+}
+
+.test-media-icons a {
+    color: var(--basic-change-two);
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.test-media-icons a:hover {
+    color: var(--first-color);
+
 }
 
 .test-media-icons i {
-    color: #fff;
-    opacity: 0.6;
+    color: var(--basic-change-two);
+    opacity: 0.8;
+    font-size: 16px;
     margin-top: 10px;
     transition: all 0.3s ease;
     cursor: pointer;
@@ -2417,6 +2439,14 @@ option:first {
     .services__container {
         grid-template-columns: repeat(4, 218px);
         justify-content: center;
+    }
+
+    .portfolio__title {
+        font-size: 1rem;
+    }
+
+    .portfolio__description {
+        font-size: var(--smaller-font-size);
     }
 
     .contact__container {
