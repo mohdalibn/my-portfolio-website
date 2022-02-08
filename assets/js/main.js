@@ -173,7 +173,7 @@ var swiper = new Swiper(".mySwiper", {
 
 
 
-document.querySelectorAll('.portfolio__button').forEach(vid => {
+document.querySelectorAll('.video__button').forEach(vid => {
     vid.onclick = () =>{
         var video = document.querySelector('.video__container');
         video.classList.add("active__video");
