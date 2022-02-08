@@ -1225,13 +1225,15 @@ img {
 
 .portfolio__title {
     font-size: var(--h3-font-size);
-    margin-bottom: var(--mb-0-5);
+    height: 3rem;
+    /* margin-bottom: var(--mb-0-5); */
     margin-bottom: 0.1rem;
 }
 
 .portfolio__description {
     /* margin-bottom: var(--mb-0-75); */
     margin-bottom: 0.1rem;
+    height: 3.5rem;
     /* margin-bottom: 4rem; */
 }
 
@@ -1380,7 +1382,7 @@ img {
     position: relative;
     border-radius: 20px;
     width: 280px;
-    height: 400px;
+    height: 395px;
     background-color: var(--portfolio-card-color);
     box-shadow: var(--portfolio-card-shadow);
 }
@@ -1523,12 +1525,12 @@ img {
 
 .swiper-button-prev {
     left: -0.1rem;
-    top: 11rem;
+    top: 13rem;
 }
 
 .swiper-button-next {
     right: -0.1rem;
-    top: 11rem;
+    top: 12.5rem;
 }
 
 .swiper-button-prev,
