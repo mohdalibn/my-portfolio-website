@@ -1605,6 +1605,9 @@ img {
 }
 
 .portfolio-modal-heading {
+    position: absolute;
+    top: 1.35rem;
+
     font-size: 1rem;
 }
 
@@ -1621,7 +1624,9 @@ img {
 .tech-container {
     /* width: 100%; */
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    row-gap: 0;
+    column-gap: 10px;
     flex-wrap: wrap;
     height: 4rem;
 }
