@@ -1294,6 +1294,7 @@ img {
     border: 1px solid var(--first-color);
     border-radius: 20px;
     padding: 0.5rem;
+    cursor: pointer;
 }
 
 .portfolio__button:hover {
