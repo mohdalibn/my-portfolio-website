@@ -196,8 +196,30 @@ document.querySelectorAll('.video__close').forEach(newvid => {
 
 // PORTFOLIO MODAL OPENING AND CLOSING SCRIPT
 const PortfolioButton = document.querySelectorAll('.portfolio__button'),
+PortfolioCardContent = document.querySelectorAll('.test-card-content'),
 PortfolioModal = document.querySelectorAll('.test-modal-container'),
 PortfolioModalClose = document.querySelectorAll('.portfolio-modal-close');
+
+
+// let Pmodal = function(PmodalClick){
+//     PortfolioModal[PmodalClick].classList.add('portfolio-modal-visible');
+//     PortfolioCardContent[PmodalClick].classList.add('portfolio-card-hidden');
+// }
+
+// PortfolioButton.forEach((PortfolioButton, i) =>{
+//     PortfolioButton.addEventListener('click', () =>{
+//         Pmodal(i)
+//     })
+// })
+
+// // Code for closing the portfolio modal using the cross mark on the top right
+// modelCloses.forEach((modelClose) =>{
+//     modelClose.addEventListener('click', () =>{
+//         modelViews.forEach((modelView) =>{
+//             modelView.classList.remove('active-model')
+//         })
+//     })
+// })
 
 
 /*==================== TESTIMONIAL ====================*/

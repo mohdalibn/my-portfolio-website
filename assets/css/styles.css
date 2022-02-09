@@ -1665,7 +1665,11 @@ img {
     gap: 5px;
 }
 
-.porfolio-modal-visible {
+.portfolio-card-hidden {
+    visibility: hidden;
+}
+
+.portfolio-modal-visible {
     visibility: visible;
 }
 
