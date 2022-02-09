@@ -299,7 +299,7 @@ async function handleSubmit(event) {
         form.reset()
     }).catch(error => {
         status.classList.add('error');
-        status.innerHTML = "Oops! There was a problem submitting your form"
+        status.innerHTML = "Oops! There was a problem submitting your form";
     });
 }
 form.addEventListener("submit", handleSubmit)
@@ -316,33 +316,33 @@ form.addEventListener("submit", handleSubmit)
 // });
 
 
-$(document).ready(function(){
-    $('.FirstTest').owlCarousel({
-        loop:true,
-        margin: 10,
-        responsiveClass:true,
-        nav: true,
-        dots: true,
-        navText:[
-            "<i class='fa fa-angle-left'><i>",
-            "<i class='fa fa-angle-right'><i>"
-        ],
-        responsive:{
-            0:{
-                items:1,
-                nav:true
-            },
-            779:{
-                items:2,
-                nav:true
-            },
-            1024:{
-                items:3,
-                nav:true
-            }
-        }
-    })
-});
+// $(document).ready(function(){
+//     $('.FirstTest').owlCarousel({
+//         loop:true,
+//         margin: 10,
+//         responsiveClass:true,
+//         nav: true,
+//         dots: true,
+//         navText:[
+//             "<i class='fa fa-angle-left'><i>",
+//             "<i class='fa fa-angle-right'><i>"
+//         ],
+//         responsive:{
+//             0:{
+//                 items:1,
+//                 nav:true
+//             },
+//             779:{
+//                 items:2,
+//                 nav:true
+//             },
+//             1024:{
+//                 items:3,
+//                 nav:true
+//             }
+//         }
+//     })
+// });
 
 
 /*==================== SCROLL REVEAL ANIMATION ====================*/
