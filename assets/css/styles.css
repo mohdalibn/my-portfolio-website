@@ -1456,6 +1456,7 @@ img {
     position: relative;
     z-index: 100;
     visibility: visible;
+    opacity: 1;
 
 }
 
@@ -1602,6 +1603,7 @@ img {
     align-items: center;
     justify-content: start;
     visibility: hidden;
+    opacity: 0;
 }
 
 .portfolio-modal-heading {
@@ -1667,10 +1669,26 @@ img {
 
 .portfolio-card-hidden {
     visibility: hidden;
+    opacity: 0;
+    transition: all 0s;
+}
+
+.portfolio-card-visible {
+    visibility: visible;
+    opacity: 1;
+    transition: all 0.5s;
 }
 
 .portfolio-modal-visible {
     visibility: visible;
+    opacity: 1;
+    transition: all 0.5s;
+}
+
+.portfolio-modal-hidden {
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0s;
 }
 
 /*==================== PROJECT IN MIND ====================*/

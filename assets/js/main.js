@@ -202,7 +202,9 @@ PortfolioModalClose = document.querySelectorAll('.portfolio-modal-close');
 
 
 let Pmodal = function(PmodalClick){
+    PortfolioModal[PmodalClick].classList.remove('portfolio-modal-hidden');
     PortfolioModal[PmodalClick].classList.add('portfolio-modal-visible');
+    PortfolioCardContent[PmodalClick].classList.remove('portfolio-card-visible');
     PortfolioCardContent[PmodalClick].classList.add('portfolio-card-hidden');
 }
 
@@ -216,10 +218,12 @@ PortfolioButton.forEach((PortfolioButton, i) =>{
 PortfolioModalClose.forEach((PmodalClose) =>{
     PmodalClose.addEventListener('click', () =>{
         PortfolioModal.forEach((PmodalView) =>{
-            PmodalView.classList.remove('portfolio-modal-visible')
+            PmodalView.classList.remove('portfolio-modal-visible');
+            PmodalView.classList.add('portfolio-modal-hidden');
         })
         PortfolioCardContent.forEach((POmodalView) =>{
-            POmodalView.classList.remove('portfolio-card-hidden')
+            POmodalView.classList.remove('portfolio-card-hidden');
+            POmodalView.classList.add('portfolio-card-visible');
         })
     })
 })
