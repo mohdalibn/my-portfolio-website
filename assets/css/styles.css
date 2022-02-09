@@ -1603,7 +1603,6 @@ img {
     justify-content: start;
     visibility: hidden;
     opacity: 0;
-    transform: translateX(-10px);
     transition: all 0.5s;
 }
 
@@ -1671,14 +1670,14 @@ img {
 .portfolio-card-hidden {
     visibility: hidden;
     opacity: 0;
-    transform: translateX(10px);
+    /* transform: translateX(10px); */
     transition: all 0s;
 }
 
 .portfolio-card-visible {
     visibility: visible;
     opacity: 1;
-    transform: translateX(0);
+    /* transform: translateX(0); */
     /* transform: scale(1.1); */
     transition: all 0.5s;
 }
@@ -1686,13 +1685,16 @@ img {
 .portfolio-modal-visible {
     visibility: visible;
     opacity: 1;
-    transform: translateX(0);
+    /* transform: translateX(0); */
+    /* transform: scale(1); */
     transition: all 0.5s;
 }
 
 .portfolio-modal-hidden {
     visibility: hidden;
     opacity: 0;
+    /* transform: translateX(-10px); */
+    /* transform: scale(0.8); */
     transition: all 0s;
 }
 
