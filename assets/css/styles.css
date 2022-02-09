@@ -1455,6 +1455,7 @@ img {
     padding: 15px;
     position: relative;
     z-index: 100;
+    visibility: hidden;
 
 }
 
@@ -1588,6 +1589,16 @@ img {
 .swiper-button-next,
 .swiper-pagination-bullet {
     outline: none;
+}
+
+.test-modal-container {
+    position: absolute;
+    top: 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
 }
 
 /*==================== PROJECT IN MIND ====================*/

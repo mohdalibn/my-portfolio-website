@@ -115,7 +115,8 @@ modelBtns.forEach((modelBtn, i) =>{
     modelBtn.addEventListener('click', () =>{
         model(i)
         //  the line below prevents scrolling when the service is open
-        document.getElementById('htmlid').style.overflowY='hidden'
+        document.getElementById('htmlid').style.overflowY='hidden';
+        // document.getElementById('bodyid').style.paddingRight='0.60rem';
     })
 })
 
@@ -126,6 +127,7 @@ modelCloses.forEach((modelClose) =>{
             modelView.classList.remove('active-model')
              //  the line below allows scrolling again when the service is closed
             document.getElementById('htmlid').style.overflowY='visible'
+            // document.getElementById('bodyid').style.paddingRight='0';
         })
     })
 })
