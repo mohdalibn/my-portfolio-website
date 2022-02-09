@@ -791,6 +791,7 @@ img {
     padding-left: 2rem;
     padding-right: 1rem;
     border-radius: 1rem;
+    overflow: hidden;
     /* border: 1px solid red; */
 }
 
@@ -905,12 +906,12 @@ img {
 
 .skills__close .skills__list {
     max-height: 0;
-    overflow: hidden;
     transition: max-height 200ms;
     /* transform: translateY(-1.5rem); */
     /* transition: all 0.4s ease 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s; */
     /* transition: max-height 200ms ease-in-out; */
 }
+
 
 .skills__open .skills__list {
     max-height: 300px;
