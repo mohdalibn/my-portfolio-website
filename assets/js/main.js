@@ -194,6 +194,12 @@ document.querySelectorAll('.video__close').forEach(newvid => {
     }
 })
 
+// PORTFOLIO MODAL OPENING AND CLOSING SCRIPT
+const PortfolioButton = document.querySelectorAll('.portfolio__button'),
+PortfolioModal = document.querySelectorAll('.test-modal-container'),
+PortfolioModalClose = document.querySelectorAll('.portfolio-modal-close');
+
+
 /*==================== TESTIMONIAL ====================*/
 
 
