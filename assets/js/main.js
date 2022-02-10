@@ -195,12 +195,13 @@ document.querySelectorAll('.video__close').forEach(newvid => {
 })
 
 // PORTFOLIO MODAL OPENING AND CLOSING SCRIPT
+
 const PortfolioButton = document.querySelectorAll('.portfolio__button'),
 PortfolioCardContent = document.querySelectorAll('.test-card-content'),
 PortfolioModal = document.querySelectorAll('.test-modal-container'),
 PortfolioModalClose = document.querySelectorAll('.portfolio-modal-close');
 
-
+// Opening Modal Script
 let Pmodal = function(PmodalClick){
     PortfolioModal[PmodalClick].classList.remove('portfolio-modal-hidden');
     PortfolioModal[PmodalClick].classList.add('portfolio-modal-visible');
@@ -214,19 +215,33 @@ PortfolioButton.forEach((PortfolioButton, i) =>{
     })
 })
 
-// Code for closing the portfolio modal using the cross mark on the top right
-PortfolioModalClose.forEach((PmodalClose) =>{
-    PmodalClose.addEventListener('click', () =>{
-        PortfolioModal.forEach((PmodalView) =>{
-            PmodalView.classList.remove('portfolio-modal-visible');
-            PmodalView.classList.add('portfolio-modal-hidden');
-        })
-        PortfolioCardContent.forEach((POmodalView) =>{
-            POmodalView.classList.remove('portfolio-card-hidden');
-            POmodalView.classList.add('portfolio-card-visible');
-        })
+// Closing Modal Script
+let PmodalClose = function(PmodalClickClose){
+    PortfolioModal[PmodalClickClose].classList.remove('portfolio-modal-visible');
+    PortfolioModal[PmodalClickClose].classList.add('portfolio-modal-hidden');
+    PortfolioCardContent[PmodalClickClose].classList.remove('portfolio-card-hidden');
+    PortfolioCardContent[PmodalClickClose].classList.add('portfolio-card-visible');
+}
+
+PortfolioModalClose.forEach((PortfolioButton, i) =>{
+    PortfolioButton.addEventListener('click', () =>{
+        PmodalClose(i)
     })
 })
+
+// Code for closing the portfolio modal using the cross mark on the top right
+// PortfolioModalClose.forEach((PmodalClose) =>{
+//     PmodalClose.addEventListener('click', () =>{
+//         PortfolioModal.forEach((PmodalView) =>{
+//             PmodalView.classList.remove('portfolio-modal-visible');
+//             PmodalView.classList.add('portfolio-modal-hidden');
+//         })
+//         PortfolioCardContent.forEach((POmodalView) =>{
+//             POmodalView.classList.remove('portfolio-card-hidden');
+//             POmodalView.classList.add('portfolio-card-visible');
+//         })
+//     })
+// })
 
 
 /*==================== TESTIMONIAL ====================*/
