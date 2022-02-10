@@ -1629,6 +1629,10 @@ img {
     cursor: pointer;
 }
 
+.portfolio-modal-close:hover {
+    color: var(--basic-change-two);
+}
+
 .tech-container {
     /* width: 100%; */
     display: flex;
