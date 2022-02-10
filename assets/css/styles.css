@@ -223,9 +223,9 @@ body {
 }
 
 
-.change-theme:hover {
+/* .change-theme:hover {
     color: var(--first-color);
-}
+} */
 
 /*==================== BASE ====================*/
 
@@ -398,9 +398,9 @@ img {
 
 }
 
-.nav__logo span:hover {
+/* .nav__logo span:hover {
     color: var(--first-color);
-}
+} */
 
 
 
@@ -409,9 +409,9 @@ img {
     cursor: pointer;
 }
 
-.nav__toggle:hover {
+/* .nav__toggle:hover {
     color: var(--first-color);
-}
+} */
 
 
 .nav__list {
@@ -2623,6 +2623,21 @@ option:first {
 
 
 
+}
+
+@media(hover: hover) and (pointer: fine) {
+
+    .change-theme:hover {
+        color: var(--first-color);
+    }
+
+    .nav__logo span:hover {
+        color: var(--first-color);
+    }
+
+    .nav__toggle:hover {
+        color: var(--first-color);
+    }
 }
 
 
