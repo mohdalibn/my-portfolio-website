@@ -1665,6 +1665,8 @@ img {
     justify-content: center;
     align-items: center;
     gap: 5px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 15px;
     cursor: pointer;
 }
 
