@@ -1458,6 +1458,8 @@ img {
     z-index: 100;
     visibility: visible;
     opacity: 1;
+    transform: translateX(0);
+    transition: all 0.3s;
 }
 
 .portfolio-button-container {
@@ -1604,6 +1606,7 @@ img {
     justify-content: start;
     visibility: hidden;
     opacity: 0;
+    transform: translateX(10px);
     transition: all 0.5s;
 }
 
