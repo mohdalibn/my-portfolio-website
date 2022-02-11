@@ -2162,10 +2162,13 @@ option:first {
 
     body {
         margin: 0;
+        /* Added to fix top bottom always 2rem below navbar on larger screens */
+        margin-top: 2rem;
+
     }
 
     .section {
-        padding: 6rem 0 2rem;
+        padding: 4rem 0 2rem;
         /* border: 1px solid red; */
     }
 
