@@ -907,7 +907,7 @@ img {
 
 .skills__close .skills__list {
     max-height: 0;
-    transition: max-height 200ms;
+    transition: all 200ms;
     /* transform: translateY(-1.5rem); */
     /* transition: all 0.4s ease 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s; */
     /* transition: max-height 200ms ease-in-out; */
@@ -917,7 +917,7 @@ img {
 .skills__open .skills__list {
     max-height: 300px;
     margin-bottom: var(--mb-2-5);
-    transition: max-height 400ms;
+    transition: all 400ms;
     /* transition: all 0.4s ease 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s; */
     /* transition: max-height 200ms ease-in-out; */
 }
