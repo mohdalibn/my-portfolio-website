@@ -1,4 +1,6 @@
-# My Portfolio Website
+<!-- # My Portfolio Website -->
+
+![portfolio-website](https://user-images.githubusercontent.com/95453430/154371184-b6e5b305-a884-47d1-9d5a-776678d0edd9.svg)
 
 <!-- ![screencapture-127-0-0-1-5500-index-html-2022-02-17-00_07_09 1](https://user-images.githubusercontent.com/95453430/154362374-9f3a3ab4-a8f9-4282-a6a5-196b695a98cc.png) -->
 
