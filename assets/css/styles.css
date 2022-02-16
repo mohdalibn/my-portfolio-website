@@ -1245,6 +1245,7 @@ img {
 
 .portfolio__img {
     width: 256px;
+    /* height: 10.4rem; */
     border-radius: .5rem;
     justify-self: center;
     cursor: pointer;
